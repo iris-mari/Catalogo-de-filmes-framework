@@ -14,7 +14,7 @@ export const movies = [
     rating: 8.4,
     poster: avengers, // Use a variável, sem aspas
     genres: ['Ação'],
-    description: 'Heróis se unem para salvar o mundo.'
+    description: 'Quando uma ameaça global surge pelas mãos de Loki, o diretor da S.H.I.E.L.D., Nick Fury, reúne os maiores heróis da Terra. Homem de Ferro, Capitão América, Thor e Hulk precisam aprender a trabalhar em equipe para evitar a destruição do planeta.'
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ export const movies = [
     rating: 7.0,
     poster: avatar,
     genres: ['Fantasia'],
-    description: 'Uma aventura mágica em um mundo azul.'
+    description: 'No exuberante mundo de Pandora, os seres humanos usam corpos híbridos chamados Avatares para explorar o ambiente. O filme acompanha um fuzileiro naval paraplégico que se vê dividido entre seguir ordens e proteger o mundo que aprendeu a amar.'
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ export const movies = [
     rating: 8.2,
     poster: hp,
     genres: ['Fantasia'],
-    description: 'O menino que sobreviveu vai para Hogwarts.'
+    description: 'A vida de um órfão comum muda drasticamente quando ele descobre que é um bruxo e foi convidado para estudar na Escola de Magia e Bruxaria de Hogwarts. Ao lado de seus amigos, ele enfrenta segredos sombrios sobre seu passado e o retorno de um grande vilão.'
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ export const movies = [
     rating: 7.3,
     poster: it,
     genres: ['Terror'],
-    description: 'Um palhaço aterroriza a cidade de Derry.'
+    description: 'Em uma pequena cidade onde crianças começam a desaparecer, um grupo de amigos se une para investigar o mistério. Eles descobrem que o culpado é uma entidade milenar que assume a forma do palhaço Pennywise e se alimenta dos medos de suas vítimas.'
   },
   {
     id: 5,
@@ -50,7 +50,7 @@ export const movies = [
     rating: 7.3,
     poster: noivamorta,
     genres: ['Animação'],
-    description: 'Um jovem se casa acidentalmente com uma noiva morta.'
+    description: 'Nesta obra visualmente deslumbrante de Tim Burton, Victor acidentalmente recita seus votos de casamento para um esqueleto de noiva enquanto ensaia na floresta. Ele é levado para o vibrante Mundo dos Mortos e precisa encontrar uma forma de voltar para sua verdadeira noiva.'
   },
   {
     id: 6,
@@ -59,6 +59,6 @@ export const movies = [
     rating: 5.3,
     poster: pc,
     genres: ['Comédia'],
-    description: 'Um inspetor atrapalhado tenta resolver um crime.'
+    description: 'O excêntrico pirata Jack Sparrow vê sua vida virar de cabeça para baixo quando seu antigo rival rouba seu navio e sequestra a filha do governador. Uma aventura cheia de maldições astecas, batalhas navais e muito humor pelos mares do Caribe.'
   }
 ];
