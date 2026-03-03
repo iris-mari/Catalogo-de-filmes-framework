@@ -14,7 +14,7 @@ export const movies = [
     rating: 8.4,
     poster: avengers, // Use a variável, sem aspas
     genres: ['Ação'],
-    description: 'Quando uma ameaça global surge pelas mãos de Loki, o diretor da S.H.I.E.L.D., Nick Fury, reúne os maiores heróis da Terra. Homem de Ferro, Capitão América, Thor e Hulk precisam aprender a trabalhar em equipe para evitar a destruição do planeta.'
+    description: 'Após os eventos devastadores de Guerra Infinita, o universo está em ruínas. Com a ajuda dos aliados restantes, os Vingadores precisam se reunir mais uma vez para desfazer as ações de Thanos e restaurar a ordem no universo de uma vez por todas, custe o que custar.'
   },
   {
     id: 2,
