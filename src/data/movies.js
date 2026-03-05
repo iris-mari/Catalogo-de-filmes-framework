@@ -1,4 +1,4 @@
-// 1. Importações (Certifique-se que a extensão .jpeg ou .jpg está igual ao arquivo na pasta)
+
 import avengers from './imgs/avengers.jpeg';
 import avatar from './imgs/avatar.jpeg';
 import hp from './imgs/hp.jpeg';
@@ -6,13 +6,25 @@ import it from './imgs/it.jpeg';
 import noivamorta from './imgs/noivamorta.jpeg';
 import pc from './imgs/pc.jpeg';
 
+class Movie {
+  constructor(id, title, year, rating, poster, genres, description) {
+    this.id = id;
+    this.title = title;
+    this.year = year;
+    this.rating = rating;
+    this.poster = poster;
+    this.genres = genres;
+    this.description = description;
+  }
+}
+
 export const movies = [
   {
     id: 1,
     title: 'Avengers',
     year: 2019,
     rating: 8.4,
-    poster: avengers, // Use a variável, sem aspas
+    poster: avengers,
     genres: ['Ação'],
     description: 'Após os eventos devastadores de Guerra Infinita, o universo está em ruínas. Com a ajuda dos aliados restantes, os Vingadores precisam se reunir mais uma vez para desfazer as ações de Thanos e restaurar a ordem no universo de uma vez por todas, custe o que custar.'
   },
